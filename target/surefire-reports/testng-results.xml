@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Appium server connection establised successfully]]>
+    </line>
+    <line>
+      <![CDATA[Digi 5 button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Digit 5 is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Digi x button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Digit X is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Digi 7 button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Digit 7 is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Digi eq button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Digit = is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Result displayed is 35]]>
+    </line>
+    <line>
+      <![CDATA[Closed the appium server connection]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19049" started-at="2021-10-24T06:47:42Z" finished-at="2021-10-24T06:48:01Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="19049" started-at="2021-10-24T06:47:42Z" finished-at="2021-10-24T06:48:01Z">
+      <class name="AppiumFramework.appium.test.Test_Calculator">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:AppiumFramework.appium.test.Test_Calculator@782663d3]" name="initialize" is-config="true" duration-ms="11321" started-at="2021-10-24T06:47:42Z" finished-at="2021-10-24T06:47:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Appium server connection establised successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="simpleMultiplication()[pri:1, instance:AppiumFramework.appium.test.Test_Calculator@782663d3]" name="simpleMultiplication" duration-ms="7659" started-at="2021-10-24T06:47:53Z" finished-at="2021-10-24T06:48:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Digi 5 button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Digit 5 is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Digi x button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Digit X is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Digi 7 button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Digit 7 is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Digi eq button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Digit = is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Result displayed is 35]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- simpleMultiplication -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AppiumFramework.appium.test.Test_Calculator@782663d3]" name="teardown" is-config="true" duration-ms="0" started-at="2021-10-24T06:48:01Z" finished-at="2021-10-24T06:48:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed the appium server connection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AppiumFramework.appium.test.Test_Calculator -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
